@@ -1,0 +1,27 @@
+[2023-05-23T16:06:44.557Z] 错误信息 --- TypeError: firstTweet.$(...).click is not a function
+    at G:\twitter-puppeteer\twitter-login.js:156:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-23T16:29:27.332Z] 错误信息 --- TimeoutError: waiting for selector `div[data-testid="tweet"]:nth-child(1)` failed: timeout 30000ms exceeded
+    at new WaitTask (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:513:34)
+    at DOMWorld.waitForSelectorInPage (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:424:26)
+    at internalHandler.waitFor (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:317:29)
+    at Frame.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
+    at Page.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:2313:33)
+    at G:\twitter-puppeteer\twitter-login.js:153:20
+[2023-05-23T16:31:53.381Z] 错误信息 --- TimeoutError: waiting for selector `div[data-testid="tweet"]:nth-child(1)` failed: timeout 30000ms exceeded
+    at new WaitTask (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:513:34)
+    at DOMWorld.waitForSelectorInPage (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:424:26)
+    at internalHandler.waitFor (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:317:29)
+    at Frame.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
+    at Page.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:2313:33)
+    at G:\twitter-puppeteer\twitter-login.js:153:20
+[2023-05-23T16:42:56.191Z] 错误信息 --- TimeoutError: waiting for selector `div[data-testid="socialContext"]` failed: timeout 30000ms exceeded
+    at new WaitTask (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:513:34)
+    at DOMWorld.waitForSelectorInPage (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:424:26)
+    at internalHandler.waitFor (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:317:29)
+    at Frame.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
+    at Page.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:2313:33)
+    at G:\twitter-puppeteer\twitter-login.js:142:20
