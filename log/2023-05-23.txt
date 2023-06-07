@@ -1,0 +1,23 @@
+[2023-05-23T14:50:29.624Z] TypeError: tweetButton.click is not a function
+    at G:\twitter-puppeteer\twitter-login.js:196:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-23T14:58:12.166Z] 回复任务 --- 用户:newman_vic776 
+ 内容:@1111 look he
+[2023-05-23T15:39:38.696Z] 错误信息 --- TimeoutError: waiting for selector `div[data-testid="UserCell"]` failed: timeout 30000ms exceeded
+    at new WaitTask (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:513:34)
+    at DOMWorld.waitForSelectorInPage (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:424:26)
+    at internalHandler.waitFor (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:317:29)
+    at Frame.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
+    at Page.waitForSelector (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:2313:33)
+    at G:\twitter-puppeteer\twitter-login.js:127:20
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-05-23T15:45:58.083Z] 错误信息 --- Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:35)
+    at ExecutionContext._evaluateInternal (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:204:50)
+    at ExecutionContext.evaluateHandle (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\ExecutionContext.js:155:21)
+    at ElementHandle.evaluateHandle (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:120:46)
+    at internalHandler.queryAll (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:35:44)
+    at ElementHandle.$$ (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\JSHandle.js:706:29)
+    at DOMWorld.$$ (G:\twitter-puppeteer\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:123:38)
+    at async G:\twitter-puppeteer\twitter-login.js:162:28
